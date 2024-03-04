@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Forum</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="font-sans">
+
+     <!-- Navbar-->
+
+     <div class="navbar container">
+        <div class="navbar-start">
+          <a class="btn btn-ghost text-4xl font-bold text-[#1E1E1E]">ReTro</a>
+        </div>
+        <div class="navbar-end">
+            
+            <ul class="menu menu-horizontal">
+                <li><a title="Home"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                  <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z"/>
+                </svg></a></li>
+                <li><a title="Edit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                  <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325"/>
+                </svg></a></li>
+                <li><a title="Add Person"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
+                  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                  <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5"/>
+                </svg></a></li>
+                <li><a title="Flag"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-flag" viewBox="0 0 16 16">
+                  <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12 12 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A20 20 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.478a20 20 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21 21 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21 21 0 0 0 14 7.655V1.222z"/>
+                </svg></a></li>
+              </ul>              
+          <a class="btn w-32 text-lg font-bold rounded-3xl hover:bg-[#797DFC] hover:text-[white]">Sign In</a>
+        </div>
+      </div>
+
+       <!-- Banner section Starts-->
+       <div class="hero h-screen mt-3 container mx-auto rounded-3xl" style="background-image: url(./bannar.png)";>
+        <div class="hero-content text-neutral-content gap-x-40">
+          <div class="max-w-xl">
+            <h1 class="mb-4 text-6xl font-bold">Welcome to the <br> <span class="text-[#797DFC]">ReTro</span> Forum</h1>
+            <p class="mb-4 text-xl">Share your favorite opinion and win and wp <br> forum coffee mug!<p>
+                <label class="input input-bordered flex items-center gap-2 rounded-3xl">
+                    <input type="text" class="grow text-lg" placeholder="Search here anything" />
+                    <span class="badge badge-info h-10 w-30 text-lg font-bold rounded-3xl bg-[#797DFC] text-[white]">Search</span>
+                  </label>
+            </div>
+            <div class="card w-78 bg-base-100 rounded-2xl p-4">
+                <div class="card-body text-xl justify-between">
+                  <p class="mb-1">Registered Users<span class="ml-20">01</span></p>
+                  <p class="mb-1">Forum<span class="ml-40">05</span></p>
+                  <p class="mb-1">Topics<span class="ml-40">01</span></p>
+                  <p class="mb-1">Replies<span class="ml-40">01</span></p>
+                </div>
+              </div>
+        </div>
+      </div>
+     <!-- Banner section Ends-->
+
+     <!-- Discuss section-->
+
+     <section id="discuss" class="mt-12">
+        <div class="mt-10 container text-center ml-10">
+          <h1 class="mb-4 text-4xl font-bold">Let’s Discuss</h1>
+          <p class="text-lg">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+        </div>
+      </section>
+    <div class="flex">
+    <div id="books-container">
+      <!--  <div class="card mt-12 bg-[#F3F3F5] w-2/3 ml-10 container p-6">
+           <div class="avatar online w-24">
+                <div class="w-24 rounded-full">
+                  <img src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                </div>
+              </div>
+            <div class="card-body">
+              <h2 class="card-title">Card title!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>  -->
+          </div>
+
+    <div class="click flex rounded-xl bg-[#F3F3F5] p-10">
+     <div class="title  font-bold">Title</div>
+      <div class="read ml-20 flex"><span class="mr-2 mt-2"><img src="./images/Frame.png"></span>Mark as read <span id="read-count">(0)</span></div>
+    </div>
+    <div id="bottom-display"></div>
+  </div>
+
+     <!-- Join Forum section-->
+
+     <div class="hero container mx-auto mt-12 bg-[#12132D] rounded-2xl">
+        <div class="hero-content flex-col lg:flex-row-reverse text-white gap-x-40">
+          <img src="./images/joinforum.png" class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Join Our Forum</h1>
+            <p class="py-6 text-sm">Share your favorite opinion and win and wp forum coffee mug! Yes, you can <br> run unit tests and view the results directly within the app. </p>
+            <button class="btn text-white w-44 bg-[#797DFC] rounded-3xl text-lg">Registered Now</button>
+          </div>
+        </div>
+      </div>
+
+     <!-- Latest post section-->
+
+     <section id="latest_post" class="mt-12">
+        <div class="mt-10 container text-center ml-10">
+          <h1 class="mb-4 text-4xl font-bold">Latest Posts</h1>
+          <p class="text-lg">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
+        </div>
+     </section>
+
+     <div id="post-container">
+      <!-- <div class="card w-96 bg-base-100 shadow-xl container mt-12">
+            <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>  --> 
+     </div>
+
+      <!-- Footer section-->
+
+      <footer class="footer footer-center mt-12 p-6 bg-base-200 text-black">
+        <aside class="mt-6">
+          <img src="./images/logo.png">
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece <br> of classical Latin literature from 45 BC
+          </p> 
+        </aside> 
+        <nav>
+          <div class="grid grid-flow-col gap-6">
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+            <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+          </div>
+        </nav>
+        <hr class="w-full solid">
+        <p>2017, All Rights Reserved.</p>
+      </footer>
+
+        <script src="./bootstrap.bundle.min.js"></script>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <script src="./script.js"></script>
+      <script src="./post.js"></script>
+    </body>
+</html>
